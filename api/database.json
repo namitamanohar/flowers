@@ -1,0 +1,68 @@
+{
+  "flowers": [
+    {
+      "id":1,
+      "commonName":"Tulip",
+      "color":"red"
+      
+    },
+    {
+      "id":2,
+      "commonName":"Sunflower",
+      "color":"yellow"
+      
+    },
+    {
+      "id":3,
+      "commonName":"Hydrangea",
+      "color":"blue"
+      
+    },
+    {
+      "id":4,
+      "commonName":"Iris",
+      "color":"purple"
+      
+    },
+    {
+      "id":5,
+      "commonName":"Cherry Blossom",
+      "color":"pink"
+      
+    }
+  ],
+  {
+    "retailers": [
+      {
+        "name":"Flower N' More",
+        "city":"Nashville",
+        "state":"TN",
+        "address":"136 Green Street"
+      },
+      {
+        "name":"Dirt and Wormz",
+        "city":"Durham",
+        "state":"NC",
+        "address":"826 Fayetville Street"
+      },
+      {
+        "name":"Tulip Town",
+        "city":"Chicago",
+        "state":"IL",
+        "address":"998 Washington Lane"
+      },
+      {
+        "name":"Aloha Lua",
+        "city":"Honululu",
+        "state":"HI",
+        "address":"1126 Volcano Avenue"
+      }
+      {
+        "name":"Pine and Vase",
+        "city":"Atlanta",
+        "state":"GA",
+        "address":"136 Green street"
+      }
+    ]
+}
+}
