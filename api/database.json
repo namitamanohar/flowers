@@ -3,66 +3,228 @@
     {
       "id":1,
       "commonName":"Tulip",
-      "color":"red"
+      "colorId":1
       
     },
     {
       "id":2,
       "commonName":"Sunflower",
-      "color":"yellow"
+      "colorId":2
       
     },
     {
       "id":3,
       "commonName":"Hydrangea",
-      "color":"blue"
+      "colorId":3
       
     },
     {
       "id":4,
       "commonName":"Iris",
-      "color":"purple"
+      "colorId":4
       
     },
     {
       "id":5,
       "commonName":"Cherry Blossom",
-      "color":"pink"
+      "colorId":4
       
     }
   ],
-  {
+  "colors":[
+    {"id":1,
+      "color":"red"
+    },
+    {"id":2,
+      "color":"pink"
+    },
+    {"id":3,
+      "color":"yellow"
+    },
+    {"id":4,
+      "color":"blue"
+    }
+  ],
     "retailers": [
       {
+        "id":1,
         "name":"Flower N' More",
         "city":"Nashville",
         "state":"TN",
-        "address":"136 Green Street"
+        "address":"136 Green Street", 
+        "distributorId":2
+        
       },
       {
+        "id":2,
         "name":"Dirt and Wormz",
         "city":"Durham",
         "state":"NC",
-        "address":"826 Fayetville Street"
+        "address":"826 Fayetville Street", 
+        "distributorId":2
+
       },
       {
+        "id":3,
         "name":"Tulip Town",
         "city":"Chicago",
         "state":"IL",
-        "address":"998 Washington Lane"
+        "address":"998 Washington Lane",
+        "distributorId":3
+
       },
       {
+        "id":4,
         "name":"Aloha Lua",
         "city":"Honululu",
         "state":"HI",
-        "address":"1126 Volcano Avenue"
-      }
+        "address":"1126 Volcano Avenue", 
+        "distributorId":2
+
+      },
       {
+        "id":5,
         "name":"Pine and Vase",
         "city":"Atlanta",
         "state":"GA",
-        "address":"136 Green street"
+        "address":"136 Green street",
+        "distributorId":1
+
+      }
+    ],
+    "distributors": [
+      {
+        "id":1,
+        "name":"Nashville Flower Grove Inc.",
+        "city":"Nashville",
+        "state":"TN",
+        "address":"1649 Tulip Lane"
+      },
+      {
+        "id":2,
+        "name":"Austin Arboretum Inc.",
+        "city":"Austin",
+        "state":"TX",
+        "address":"8836 Tree Street"
+      },
+      {
+        "id":3,
+        "name":"Atlanta Plant Inc.",
+        "city":"Atlanta",
+        "state":"GA",
+        "address":"9827 Joy Street"
+      }
+
+    ],
+
+    "nurseries":[
+      {
+        "id":1,
+        "name":"Nashville Nursery"
+      },
+      {
+        "id":2,
+        "name":"Austin Nursery"
+      },
+      {
+        "id":3,
+        "name":"Midwest Nursery"
+      },
+      {
+        "id":4,
+        "name":"Aloha Nursery"
+      },
+      {
+        "id":5,
+        "name":"Florida Nursery"
+      }
+
+    ],
+    
+    "flowerNurseries":[
+      {
+        "id":1,
+        "nurseryId":1,
+        "flowerId":1
+      },
+      {
+        "id":2,
+        "nurseryId":1,
+        "flowerId":2
+      },
+      {
+        "id":3,
+        "nurseryId":2,
+        "flowerId":2
+      },
+      {
+        "id":4,
+        "nurseryId":2,
+        "flowerId":3
+      },
+      {
+        "id":5,
+        "nurseryId":3,
+        "flowerId":3
+      },
+      {
+        "id":6,
+        "nurseryId":3,
+        "flowerId":4
+      },
+      {
+        "id":7,
+        "nurseryId":4,
+        "flowerId":4
+      },
+      {
+        "id":8,
+        "nurseryId":4,
+        "flowerId":5
+      },
+      {
+        "id":9,
+        "nurseryId":5,
+        "flowerId":1
+      },
+      {
+        "id":10,
+        "nurseryId":5,
+        "flowerId":5
+      }
+    ],
+
+    "distributorNurseries":[
+      {
+        "id":1,
+        "distributorId":1,
+        "nurseryId":1
+      },
+      {
+        "id":2,
+        "distributorId":1,
+        "nurseryId":2
+      },
+      {
+        "id":3,
+        "distributorId":2,
+        "nurseryId":2
+      },
+      {
+        "id":4,
+        "distributorId":2,
+        "nurseryId":3
+      },
+      {
+        "id":5,
+        "distributorId":3,
+        "nurseryId":4
+      },
+      {
+        "id":6,
+        "distributorId":3,
+        "nurseryId":5
       }
     ]
-}
+    
 }
